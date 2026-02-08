@@ -1,42 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-outfit);
+
+  /* Brand Colors - Professional & Trustworthy */
+  --color-brand-primary: #2563eb;
+  /* Royal Blue */
+  --color-brand-primary-dark: #1e40af;
+  --color-brand-secondary: #0f172a;
+  /* Slate 900 */
+
+  --color-text-main: #111827;
+  /* Gray 900 */
+  --color-text-muted: #4b5563;
+  /* Gray 600 */
+  --color-text-light: #6b7280;
+  /* Gray 500 */
+
+  --color-bg-white: #ffffff;
+  --color-bg-light: #f9fafb;
+  /* Gray 50 */
+  --color-bg-off: #f3f4f6;
+  /* Gray 100 */
+}
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #111827;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  antialiased: subpixel-antialiased;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
   }
 }
