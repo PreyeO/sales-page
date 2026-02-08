@@ -1,13 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import {
-  AlertCircle,
-  Search,
-  XCircle,
-  UserX,
-  CheckCircle2,
-} from "lucide-react";
+import { Search, XCircle, UserX, CheckCircle2 } from "lucide-react";
 
 export default function Problem() {
   const problems = [

@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section className="relative pt-20 pb-24 lg:pt-32 lg:pb-32 px-6 bg-white overflow-hidden">
       {/* Subtle Background Pattern */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] -z-10" />
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-size[4rem_4rem] [mask-radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] -z-10" />
 
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center space-y-8 z-10">
         <motion.div
