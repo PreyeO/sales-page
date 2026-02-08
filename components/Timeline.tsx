@@ -18,7 +18,7 @@ export default function Timeline() {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 relative">
           {/* Connector Line (Desktop) */}
-          <div className="hidden md:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-blue-200 to-transparent -z-10" />
+          <div className="hidden md:block absolute top-1/2 left-0 right-0 h-0.5 bg-linear-to-r from-transparent via-blue-200 to-transparent -z-10" />
 
           {/* Step 1 */}
           <motion.div
