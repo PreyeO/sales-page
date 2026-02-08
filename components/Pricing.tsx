@@ -31,7 +31,7 @@ export default function Pricing() {
               <div className="bg-green-100 p-1 rounded-full text-green-600">
                 <Check className="w-4 h-4" />
               </div>
-              <span className="text-gray-700">Complete 1-Page Website</span>
+              <span className="text-gray-700">Complete 1-2 Page Website</span>
             </div>
             <div className="flex items-center gap-3">
               <div className="bg-green-100 p-1 rounded-full text-green-600">
