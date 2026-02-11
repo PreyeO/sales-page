@@ -7,14 +7,9 @@ export default function Timeline() {
   return (
     <section className="lg:py-24 py-10 px-6 bg-white">
       <div className="max-w-4xl mx-auto text-center">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-3xl md:text-5xl font-bold mb-16 text-gray-900"
-        >
+        <h2 className="text-3xl md:text-5xl font-bold mb-16 text-gray-900">
           How it works
-        </motion.h2>
+        </h2>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 relative">
           {/* Connector Line (Desktop) */}

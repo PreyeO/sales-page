@@ -37,8 +37,7 @@ export default function Header() {
           }`}
         >
           <MessageCircle className="w-4 h-4" />
-          <span className="hidden sm:inline">Get Started</span>
-          <span className="sm:hidden">Chat</span>
+          <span className="">Get Started</span>
         </a>
       </div>
     </motion.header>
